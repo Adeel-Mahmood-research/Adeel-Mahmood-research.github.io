@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Adeel Mahmood - PhD Candidate</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Optional: Link to an external CSS file -->
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <style>
+        /* Inline CSS styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fafafa;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        .section {
+            margin-bottom: 50px;
+        }
+        .publication {
+            margin-bottom: 20px;
+        }
+        .publication-title {
+            font-weight: bold;
+        }
+        .abstract {
+            background-color: #fff;
+            padding: 20px;
+            border-left: 4px solid #2980b9;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        /* Responsive design */
+        @media (max-width: 600px) {
+            body {
+                margin: 20px;
+            }
+            .profile-pic {
+                width: 100px;
+                margin-right: 10px;
+            }
+        }
+        /* Styles for the profile picture */
+        .profile-pic {
+            width: 150px; /* Adjust the size as needed */
+            float: left;
+            margin-right: 20px;
+            border-radius: 50%; /* Makes the image circular */
+        }
+        header {
+            overflow: auto; /* Clears floats within the header */
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <img src="docs/profile.jpg" alt="Profile Picture" class="profile-pic">
+        <h1>Adeel Mahmood</h1>
+        <p>
+            I am a 6th-year PhD student in Electrical and Computer Engineering at Cornell
+            University, expecting to graduate in Summer 2025. My research focuses 
+            on information theory. I am on the academic job market for positions starting in Fall 2025.
+        </p>
+        <p>
+        <!-- Research and Teaching Statements -->
+        <a href="docs/Research_Statement.pdf" target="_blank">Research Statement</a> | 
+        <a href="docs/Teaching_Statement.pdf" target="_blank">Teaching Statement</a>
+    </p>
+    </header>
+
+    <!-- Dissertation Abstract Section -->
+    <div class="section" id="dissertation">
+        <h2>Summary of my PhD Research</h2>
+        <p>
+            The two pillars of information theory, data compression and channel coding, are 
+            often considered as having reached maturity a long time ago. Our research brings
+            fresh perspectives to both these areas by challenging long-standing assumptions
+            and introducing new frameworks. By reformulating foundational problems and upending
+            established results, we have expanded the theoretical boundaries of the field, 
+            offering more robust, practical, and adaptable models for modern applications.
+        </p>
+        <p>
+            For detailed summary, please refer to the full abstract:
+            <a href="docs/dissertation_abstract.pdf" target="_blank">Dissertation Abstract</a>
+        </p>
+    </div>
+
+    <!-- News Section -->
+<div class="section" id="news">
+    <!-- The News heading is clickable and takes you to a separate news.html page -->
+    <h2><a href="news.html">News</a></h2>
+    <ul>
+        <li><strong>January 2025:</strong> <a href="docs/Gaussian_paper.pdf" target="_blank">Please check out our upcoming paper with new results on Gaussian channels with mean and variance constraints</a> 
+    </ul>
+</div>
+
+
+    <!-- Publications Section -->
+    <div class="section" id="publications">
+        <h2>Publications</h2>
+        <p>
+            You can view my research works <a href="https://scholar.google.com/citations?user=m9YfW28AAAAJ&hl=en" target="_blank">here</a>.
+        </p>
+    </div>
+
+    <!-- CV Section -->
+    <div class="section" id="cv">
+        <h2>Curriculum Vitae</h2>
+        <p>
+            You can view my CV <a href="docs/CV.pdf" target="_blank">here</a>.
+        </p>
+    </div>
+
+    <!-- Optional Footer -->
+    <footer>
+        <p>Contact Information: am2384@cornell.edu</p>
+        <!-- You can also add links to your social media or professional profiles -->
+    </footer>
+</body>
+</html>
+
