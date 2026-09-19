@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Adeel Mahmood - PhD Candidate</title>
+    <title>Adeel Mahmood - Research</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Optional: Link to an external CSS file -->
     <!-- <link rel="stylesheet" href="styles.css"> -->
@@ -60,6 +60,12 @@
         header {
             overflow: auto; /* Clears floats within the header */
         }
+        @media (max-width: 600px) {
+            .profile-pic {
+                width: 100px;
+                margin-right: 10px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -68,9 +74,7 @@
         <img src="docs/profile.jpg" alt="Profile Picture" class="profile-pic">
         <h1>Adeel Mahmood</h1>
         <p>
-            I completed my PhD in Electrical and Computer Engineering from Cornell
-            University in July 2025. My research focuses 
-            on information theory.
+            I received the B.S. (summa cum laude) and Ph.D. degrees in Electrical and Computer Engineering (ECE) from Cornell University, Ithaca, NY, USA, in 2019 and 2025, respectively. I received the 2025 Cornell ECE Outstanding Ph.D. Thesis Research Award and the 2026 IEEE Information Theory Society Thomas M. Cover Dissertation Award. My research focuses on information theory: source coding, channel coding and joint source-channel coding. I study fundamental limits and bounds using mostly theoretical tools like mathematical analysis and optimization theory. Feel free to reach out for research collaboration.
         </p>
         <!--
 Research and Teaching Statements
@@ -93,37 +97,19 @@ Research and Teaching Statements
             You can view my CV <a href="docs/CV.pdf" target="_blank">here</a>.
         </p>
     </div>
-	
-    <!-- Dissertation Abstract Section -->
-    <div class="section" id="dissertation">
-        <h2>Summary of my PhD Research</h2>
-        <p>
-            The two pillars of information theory, data compression and channel coding, are 
-            often considered as having reached maturity a long time ago. Our research brings
-            fresh perspectives to both these areas by challenging long-standing assumptions
-            and introducing new frameworks. By reformulating foundational problems and upending
-            established results, we have expanded the theoretical boundaries of the field, 
-            offering more robust, practical, and adaptable models for modern applications.
-        </p>
-        <p>
-            For detailed summary, please refer to the full abstract:
-            <a href="docs/dissertation_abstract.pdf" target="_blank">Dissertation Abstract</a>
-        </p>
-		
-		<ul>
-    <li>Presentation slides of my work on channel coding with mean and variance cost constraints (PhD defense): <a href="docs/B_Exam.pdf" target="_blank">Slides</a></li>
-    <li>Presentation slides of my work on minimax lossy compression: <a href="docs/mmRD_slides.pdf" target="_blank">Slides</a></li>
-	<li>Presentation slides of my work on universal distortion lossy compression: <a href="docs/Lossy_Comp_w_Univ__Dist___ISIT_presentation_.pdf" target="_blank">Slides</a></li>
-</ul>
-    </div>
+
+
 
     
-    <!-- Publications Section -->
-    <div class="section" id="publications">
-        <h2>Publications</h2>
-        <p>
-            You can view my research works <a href="https://scholar.google.com/citations?user=m9YfW28AAAAJ&hl=en" target="_blank">here</a>.
-        </p>
+    <!-- Research Works Section -->
+    <div class="section" id="research-works">
+        <h2>Research Works</h2>
+        <p>My articles are in the following problem areas (some articles appear under more than one category):</p>
+        <ul>
+            <li><a href="source-coding.html">Source Coding</a></li>
+            <li><a href="channel-coding.html">Channel Coding</a></li>
+            <li><a href="joint-source-channel-coding.html">Joint source-channel coding</a></li>
+        </ul>
     </div>
 
     
